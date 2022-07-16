@@ -1,0 +1,9 @@
+nstall new version of git 
+open git bash where you want to track the files by git repository
+git init
+git add filename   - one file to add
+git add .          - all files in the folder to add
+git status         - to check the files are staged to commit or not 
+git commit -m "message for that commit"  - message in meaningfull 
+git remote add origin "https://github.com/dhathikasuresh/newrepository.git" 
+git push -f origin master 
